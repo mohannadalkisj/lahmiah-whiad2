@@ -11,7 +11,7 @@ import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle } f
 import { collection, doc, writeBatch, updateDoc, onSnapshot, query, orderBy } from "firebase/firestore"
 import { onAuthStateChanged, signOut } from "firebase/auth"
 import { playNotificationSound } from "@/lib/actions"
-import { auth, db, database } from "@/lib/firestore"
+import { auth, db, database } from "@/lib/firebase"
 import { InfoIcon } from "lucide-react"
 import { onValue, ref } from "firebase/database"
 import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs"
